@@ -9,6 +9,8 @@
   "author": "moh",
   "license": "ISC",
   "dependencies": {
+    "download": "^8.0.0",
+    "extract-zip": "^2.0.1",
     "mongo": "^0.1.0"
   },
   "devDependencies": {
