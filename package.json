@@ -1,0 +1,17 @@
+{
+  "name": "keeponlythegtfsyouneed",
+  "version": "1.0.0",
+  "description": "Keep only the GTFS you need.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "moh",
+  "license": "ISC",
+  "dependencies": {
+    "mongo": "^0.1.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
