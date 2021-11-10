@@ -18,7 +18,9 @@ Save database details in a .env file.
 MONGO_URI=<your mongodb uri>
 DB_NAME=<your db name>
 ```
-Define uri of the GTFS zip file you want to use in consts.js and run 
+* Define uri of the GTFS zip file you want to use in consts.js
+* Create an empty folder in project root called gtfsStaticData
+and run 
 
 ```bash
 node saveRemoteGTFSZip
@@ -32,7 +34,7 @@ Static GTFS for Irish buses (https://www.transportforireland.ie/transitData/PT_D
 
 ```
 module.exports = {
-	KEEP_ROUTES: [401, 402, 404, 405, 407, 409],
+	KEEP_ROUTES: ['401', '402', '404', '405', '407', '409'],
 	staticDataUrl: 'https://www.transportforireland.ie/transitData/google_transit_combined.zip'
 }
 ```
